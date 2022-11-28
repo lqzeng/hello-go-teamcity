@@ -93,7 +93,7 @@ object Build : BuildType({
                 docker images
                 docker run -dp 8080:8080 elmanzeeguy/teamcity-hello-go:1.%build.number%
                 curl http://localhost:8080
-                echo "script finished"
+                echo "script finished!!"
             """.trimIndent()
         }
     }

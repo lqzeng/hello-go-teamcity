@@ -109,10 +109,6 @@ object Build : BuildType({
     }
 
     features {
-        perfmon {
-        }
-        golang {
-        }
         dockerSupport {
             loginToRegistry = on {
                 dockerRegistryId = "PROJECT_EXT_2"
